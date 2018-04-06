@@ -1,13 +1,4 @@
-/*
- * jQuery UI rlightbox2
- *
- * Copyright 2011 Wojciech ‘rrh’ Ryrych
- * licensed under the MIT license
- *
- * Depends:
- *   jquery.ui.core.js
- *   jquery.ui.widget.js
- */
+
 (function( $, undefined ) {
 
 $.widget( "ui.rlightbox", {
@@ -61,35 +52,12 @@ $.widget( "ui.rlightbox", {
 	}
 });
 
-// In almost every jQuery UI plugin, in an element the plugin is initialised on
-// its initial DOM structure it transformed into the plugin's one. Therefore
-// ‘this’ always refers to the plugin instance.
-// rlightbox takes other approach: there are many elements (anchors) the plugin
-// is installed on, but there is only one UI – one DOM structure.
-// If we put all these below methods in the widget factory's scope, (the same as
-// options and _create) and created only one UI, the UI would have ‘this’ scope
-// of the first matched element – the first element in the DOM that rlightbox
-// is initialised on. Since different instances can have different
-// set of options, ‘this.options’ would always refer to the first instance.
-// Since in rlightbox we don’t operate on elements directly but only get their
-// urls, all methods are placed in the extended scope of the plugin:
-// ‘$.ui.rlightbox.global’. An instance ‘this’ scope is merely used when we
-// use options.
+
 $.extend($.ui.rlightbox, {
 	global: {
 		addToSet: function( setElement ) {
 
-			// set structure is following:
-			// sets: {
-			//		setName: [
-			//			{
-			//				url: "http://www.youtube.com?v=u408408598,
-			//				type: "youtube"
-			//			},
-			//			{…}
-			//		],
-			//		setName2: […]
-			//
+		
 			var _setName = this.getSetName( setElement.self ),
 				_sets = $.ui.rlightbox.global.sets,
 				_options = setElement.self.options,

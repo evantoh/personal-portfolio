@@ -1,16 +1,4 @@
-/**
- * Isotope v1.5.25
- * An exquisite jQuery plugin for magical layouts
- * http://isotope.metafizzy.co
- *
- * Commercial use requires one-time license fee
- * http://metafizzy.co/#licenses
- *
- * Copyright 2012 David DeSandro / Metafizzy
- */
 
-/*jshint asi: true, browser: true, curly: true, eqeqeq: true, forin: false, immed: false, newcap: true, noempty: true, strict: true, undef: true */
-/*global jQuery: false */
 
 (function( window, $, undefined ){
 
@@ -24,9 +12,6 @@
   var capitalize = function( str ) {
     return str.charAt(0).toUpperCase() + str.slice(1);
   };
-
-  // ========================= getStyleProperty by kangax ===============================
-  // http://perfectionkills.com/feature-testing-css-properties/
 
   var prefixes = 'Moz Webkit O Ms'.split(' ');
 

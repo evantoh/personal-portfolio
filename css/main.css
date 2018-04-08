@@ -85,7 +85,7 @@ p{
     padding-bottom: 14px;
     margin: 0px;
     color: black;
-    padding: 20px;
+    padding: 15px;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color:#000;
@@ -148,12 +148,12 @@ h5{
 	padding-left: 15px;
 }
 .heading h2 {
-	font-size: 32px;
+	font-size: 26px;
     /* line-height: 43px; */
     font-weight: 400;
-    margin-bottom: -24px;
+    margin-bottom: -5px;
     letter-spacing: 2px;
-    /* display: inline-block; */
+    display: inline-block;
     position: relative;
     color: black;
     font-family: fantasy;

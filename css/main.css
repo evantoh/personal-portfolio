@@ -922,15 +922,17 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 
 .conForm textarea{
-	background:#fafafa;
-	color:#805183;
-	text-transform:uppercase;
-	border-bottom:solid 2px #ccc1cd !important;
-	padding:15px 30px;
-	border:none;
-	margin-bottom:40px;
-	outline:none;
-	height:185px;
+	background: #fafafa;
+    color: #0a0a0a;
+    /* text-transform: uppercase; */
+    /* border-bottom: solid 2px #ccc1cd !important; */
+    padding: 22px 43px;
+    border: none;
+    margin-bottom: 40px;
+    outline: none;
+    height: 174px;
+    margin-left: 242px;
+    width: 580px;
 }
 
 .conForm .submitBnt{

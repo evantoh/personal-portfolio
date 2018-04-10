@@ -900,9 +900,10 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	background:#fff;
 }
 .contactDetails .container{
-	padding-top:69px ;
-	padding-bottom:50px ;
-	text-align:center;
+	padding-top: 69px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: black;
 }
 
 .conForm input,
@@ -1040,10 +1041,10 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 
 .footer ul{
-	margin:0 auto;
-	margin-bottom:62px;
-	text-align:center;
-	list-style-type:none;
+	margin: -60px auto;
+    margin-bottom: -20px;
+    text-align: center;
+    list-style-type: none;
 }
 .footer ul li{
 	display:inline-block;

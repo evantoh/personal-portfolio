@@ -433,7 +433,7 @@ header{
 	4. About me Style
 ------------------------------------------------------*/
 .aboutus{
-	background:#ffffff;
+	background:#f8f8f8;
 	text-align:left;
 }
 .aboutus .container{
@@ -595,7 +595,7 @@ header{
 	 8. Protfolio Style
 ------------------------------------------------------*/
 .protfolio{
-	background:#fff;
+	background:#f8f8f8;
 	width:100%;
 	overflow:hidden;
 }

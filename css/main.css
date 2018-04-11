@@ -106,7 +106,7 @@ h2{
     padding-bottom: 10px;
     font-weight: 400;
     text-transform: uppercase;
-    margin: 13px;
+	margin: 60px;
 }
 h3{
 	font-family: 'Crimson Text', serif;
@@ -477,8 +477,8 @@ header{
 	width:100%;
 }
 .skillset .container{
-	padding-top:66px ;
-	padding-bottom:64px ;
+    padding-top: 1px;
+    padding-bottom: 64px;
 }
 .skillbar {
 	position:relative;
